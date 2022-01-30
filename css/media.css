@@ -1,0 +1,61 @@
+@media (max-width: 1200px) {
+    /* your code should be written here  */
+}
+
+@media (max-width: 600px) {
+    html{
+        font-size: 9px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .top{
+        flex-direction: column-reverse;
+    }
+    .nav{
+        flex-direction: row;
+    }
+    .site-logo{
+        margin-top:160px;
+    }
+    .site-logo-bg{
+        display: none;
+    }
+    .site-logo-title {
+        margin-left: 6.5rem;
+        margin-top: -12rem;
+    }
+    .header {
+        padding-top: 0rem;
+    }
+    .grid-content-tile {
+        width: 40%;
+        margin: 0.5rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .top{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .nav{
+        width: 75%;
+        flex-direction: row;
+    }
+    .nav-link {
+        border-top: none;
+    }
+    .content{
+        width: 80%;
+        margin-top: -250px;
+    }
+    .grid-content-tile {
+        width: 13%;
+        margin: 0.5rem;
+    }
+}
